@@ -1,0 +1,8 @@
+steps:
+  - label: ':hammer: Website Deploy'
+    command: 'deploy.sh'
+    plugins:
+      docker-compose#v2.5.1:
+        run: app
+        config:
+          - docker-compose.yml
