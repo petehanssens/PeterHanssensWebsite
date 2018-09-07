@@ -13,7 +13,7 @@ RUN pip install virtualenvwrapper
 RUN pip install tox
 RUN pip install awscli==1.15.70
 RUN apt-get install apt-transport-https
-RUN apt-get install curl python-software-properties -y
+# RUN apt-get install curl python-software-properties -y
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install nodejs -y
 RUN node -v && npm -v 
