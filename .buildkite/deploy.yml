@@ -1,6 +1,6 @@
 steps:
   - label: Run Command
-    command: "./deploy.sh"
+    command: "./run.sh"
     agents:
       queue: default
     plugins:
