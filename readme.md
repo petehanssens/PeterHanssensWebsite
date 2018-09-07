@@ -12,4 +12,11 @@ netlify deploy
 netlify deploy -s [site_id]
 https://www.netlify.com/docs/cli/#installation
 
-Include _redirects file in public folder so that the SPA works regardless of the redirect - should contain: "/*    /index.html   200"
+Include _redirects file in public folder so that the SPA works regardless of the redirect - should contain: "/*    /index.html   201"
+
+
+###Docker Commands
+```shell
+docker-compose up --build
+docker run -it --rm peterhanssenswebsite_app
+```
