@@ -1,6 +1,8 @@
 steps:
+  - label: Example Test
+    command: echo "Hello!"
   - label: ':hammer: Website Deploy'
-    command: 'deploy.sh'
+    command: deploy.sh
     plugins:
       docker-compose#v2.5.1:
         run: app
