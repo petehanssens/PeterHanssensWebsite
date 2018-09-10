@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM ubuntu:18.04
 MAINTAINER Peter Hanssens <phanssens1@gmail.com>
 
 
@@ -14,14 +14,18 @@ RUN pip install tox
 RUN pip install awscli==1.15.70
 RUN apt-get install apt-transport-https
 # RUN apt-get install curl python-software-properties -y
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
-RUN apt-get install nodejs -y
+RUN apt install nodejs -y
+RUN apt install npm -y
 RUN node -v && npm -v 
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-RUN  apt-get update && apt-get install yarn
+RUN npm install yarn -g
 RUN yarn --version
 
-WORKDIR /usr/src/app
+ENV INSTALL_PATH /usr/src/app
+RUN mkdir -p $INSTALL_PATH
+
+WORKDIR $INSTALL_PATH
+
+# Copy the source from your workstation to the image at the WORKDIR path.
+COPY . .
 
 RUN yarn install
