@@ -7,49 +7,49 @@ const Footer = () => (
             <Grid divided inverted stackable>
             <Grid.Row>
                 <Grid.Column width={3}>
-                <Header inverted as='h4' content='About' />
-                <List link inverted>
-                    <List.Item>
-                    <a href="mailto:phanssens1@gmail.com">Contact Me
-                    </a></List.Item>
-                    <List.Item as='a'>
-                    <a href="/about">About Me
-                    </a></List.Item>
-                    <List.Item as='a'>
-                    <a href="/videos">Videos
-                    </a></List.Item>
-                </List>
+                    <h4>About</h4>
+                    <List link inverted>
+                        <List.Item>
+                            <a href="mailto:phanssens1@gmail.com">Contact Me
+                        </a></List.Item>
+                        <List.Item as='a'>
+                            <a href="/about">About Me
+                        </a></List.Item>
+                        <List.Item as='a'>
+                            <a href="/videos">Videos
+                        </a></List.Item>
+                    </List>
                 </Grid.Column>
                 <Grid.Column width={3}>
-                <Header inverted as='h4' content='Services' />
-                <List link inverted>
-                    <List.Item as='analytics'>
-                    <a href="/analytics">Analytics
-                    </a></List.Item>
-                    <List.Item as='architecture'>
-                    <a href="/architecture">Data Architecture
-                    </a></List.Item>
-                    <List.Item as='visualisations'>
-                    <a href="/visualisations">Visualisations
-                    </a></List.Item>
-                    <List.Item as='web_dev'>
-                    <a href="/web_dev">Web Development
-                    </a></List.Item>
-                </List>
+                    <h4>Services</h4>
+                    <List link inverted>
+                        <List.Item as='analytics'>
+                            <a href="/analytics">Analytics
+                        </a></List.Item>
+                        <List.Item as='architecture'>
+                            <a href="/architecture">Data Architecture
+                        </a></List.Item>
+                        <List.Item as='visualisations'>
+                            <a href="/visualisations">Visualisations
+                        </a></List.Item>
+                        <List.Item as='web_dev'>
+                            <a href="/web_dev">Web Development
+                        </a></List.Item>
+                    </List>
                 </Grid.Column>
                 <Grid.Column width={7}>
-                    <Header as='h4' inverted>Social</Header>
+                    <h4>Social</h4>
                     <a href="https://www.linkedin.com/in/peterhanssens/">
-                    <Icon size='big' name='linkedin square' />
+                        <Icon size='big' name='linkedin square' />
                     </a>
                     <a href="https://medium.com/@peterhanssens">
-                    <Icon size='big' name='medium' />
+                        <Icon size='big' name='medium' />
                     </a>
                     <a href="https://twitter.com/petehanssens">
-                    <Icon size='big' name='twitter square' />
+                        <Icon size='big' name='twitter square' />
                     </a>
                     <a href="https://github.com/phanssens1/">
-                    <Icon size='big' name='github square' />
+                        <Icon size='big' name='github square' />
                     </a>
                         
                     <p>Feel free to connect with me on LinkedIn and follow me on Twitter and Medium.</p>
