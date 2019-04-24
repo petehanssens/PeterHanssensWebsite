@@ -1,8 +1,0 @@
-steps:
-  - label: Run Command
-    command: "./run.sh"
-    agents:
-      queue: default
-    plugins:
-      docker-compose#v2.5.1:
-        run: app

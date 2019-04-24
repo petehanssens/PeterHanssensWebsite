@@ -1,0 +1,14 @@
+[[series]]
+name = "Architecture"
+img = "img/blog/twitter-stream/twitter.png"
+summary = "Architecting my way out of trouble"
+
+[[series]]
+name = "Twitter"
+img = "img/blog/twitter-stream/twitter.png"
+summary = "Twittering around"
+
+[[series]]
+name = "Alexa"
+img = "img/blog/data-concierge/alexa.jpg"
+summary = "Some fun developing Alexa skills"
