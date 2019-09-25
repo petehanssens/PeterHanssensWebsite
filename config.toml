@@ -47,6 +47,12 @@ pygmentsuseclasses         = true
     identifier             = "about"
     url                    = "about/"  
 
+  [[menu.main]]
+    name                   = "CV"
+    weight                 = -90
+    identifier             = "cv"
+    url                    = "cv/"  
+
  
 
 [params]
