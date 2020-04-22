@@ -23,7 +23,7 @@ I've got loads of AWS certifications:
 - Solutions Architect Professional
 
 
-![](/img/about/aws-saa.png) ![](/img/about/aws-dev.png) ![](/img/about/aws-sysops.png) ![](/img/about/aws-bigdata.png) ![](/img/about/aws-sa-pro.png)
+![](/img/about/aws-saa.png) ![](/img/about/aws-dev.png) ![](/img/about/aws-sysops.png) ![](/img/about/aws-bigdata.png) ![](/img/about/aws-sa-pro.png) ![](/img/about/security_specialty.png) ![](/img/about/database_specialty.png)
 
 My family mean the world to me and I'm incredibly lucky to have them:
 ![](/img/about/soccer.JPG) ![](/img/about/animal_farm.jpg) ![](/img/about/cafe.PNG)
