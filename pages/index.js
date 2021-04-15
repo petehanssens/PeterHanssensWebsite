@@ -3,6 +3,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import HOME from "../components/home";
 import CARDS from "../components/cards";
 
 function IndexPage() {
@@ -13,11 +14,8 @@ function IndexPage() {
         title="Peter Hanssens!"
       />
 
-      <section className="text-center">
-
-        <h2 className="inline-block p-3 mb-4 text-xl ">
-          Welcome to my website
-        </h2>
+      <section>
+        <HOME />
       </section>
     </Layout>
   );

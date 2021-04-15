@@ -7,7 +7,7 @@ const project = new web.NextJsProject({
 
   /* NextJsCommonProjectOptions */
   // assetsdir: 'public',                                                      /* Assets directory. */
-  // tailwind: true,                                                           /* Setup Tailwind CSS as a PostCSS plugin. */
+  tailwind: true,                                                           /* Setup Tailwind CSS as a PostCSS plugin. */
 
   /* NextJsProjectOptions */
   // sampleCode: true,                                                         /* Generate one-time sample in `pages/` and `public/` if there are no files there. */
