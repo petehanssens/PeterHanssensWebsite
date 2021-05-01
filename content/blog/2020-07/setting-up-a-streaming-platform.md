@@ -1,5 +1,6 @@
 ---
-date: "2020-07-15T01:02:17+10:00"
+date: 2020-07-15T01:00:00.000Z
+date1: "2020-07-15T01:02:17+10:00"
 draft: false
 title: "Setting up a streaming platform"
 tags: ["OBS","Twitch","YouTube",]

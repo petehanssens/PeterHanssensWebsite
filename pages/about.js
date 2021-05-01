@@ -1,5 +1,3 @@
-import "tailwindcss/tailwind.css"
-import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -29,7 +27,7 @@ export default function About() {
     <Layout>
       <SEO
         keywords={[`Peter Hanssens`]}
-        title="about!"
+        title="Peter Hanssens!"
       />
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
@@ -41,10 +39,13 @@ export default function About() {
               <div className="space-y-4">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Peter Hanssens</h3>
-                  <p className="text-indigo-600">SA</p>
+                  <p className="text-indigo-600">{Peter.ShortDesc}</p>
                 </div>
                 <div className="text-lg">
-                  <p className="text-gray-500">blah</p>
+                  {Peter.ProfessionalInterests.map((data) => (
+                    <p className="text-gray-500">{data}</p>
+                  ))
+                  }
                 </div>
                 <ul className="flex space-x-5">
                   <li>

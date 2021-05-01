@@ -13,7 +13,7 @@ export default function Example() {
         <>
           <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
             <div>
-              <a href="#" className="flex">
+              <a href="/" className="flex">
                 <span className="sr-only">Peter Hanssens</span>
                 <img
                   className="h-8 w-auto sm:h-10"
@@ -30,16 +30,16 @@ export default function Example() {
             </div>
             <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
               <Popover.Group as="nav" className="flex space-x-10">
-                <a href="about/" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/about/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                   About me
                 </a>
-                <a href="blog/" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/blog/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                   Blog
                 </a>
-                <a href="projects/" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/projects/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                   Projects
                 </a>
-                <a href="cv-peter-hanssens.pdf" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/cv-peter-hanssens.pdf" className="text-base font-medium text-gray-500 hover:text-gray-900">
                   Curriculum Vitae
                 </a>
               </Popover.Group>
