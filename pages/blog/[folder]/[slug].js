@@ -2,6 +2,9 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import gfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw'
+/* Use `…/dist/cjs/…` if you’re not in ESM! */
+// import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
@@ -10,6 +13,25 @@ import { getPostBySlug, getPostsSlugs } from "../../../utils/posts";
 const CodeBlock = ({ language, value }) => {
   return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
 };
+
+const renderers = {
+  code:({language,value})=>{
+  var newCode = value
+  var oldCode = value || oldCode
+
+  return <SyntaxHighlighter style={dark} language={"dart"} children={newCode || "" } />
+}
+}
+const components = {
+  code({node, inline, className, children, ...props}) {
+    const match = /language-(\w+)/.exec(className || '')
+    return !inline && match ? (
+      <SyntaxHighlighter  language={match[1]} PreTag="div" children={String(children).replace(/\n$/, '')} {...props} />
+    ) : (
+      <code className={className} {...props} />
+    )
+  }
+}
 
 // const MarkdownImage = ({ alt, src }) => (
 //   <Image
@@ -40,9 +62,9 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
             </header>
             <ReactMarkdown
               className="mb-4 prose-sm prose sm:prose lg:prose-lg"
-              escapeHtml={false}
               children={post.content}
-              renderers={{ code: CodeBlock,  }}
+              rehypePlugins={[rehypeRaw]}
+              components={components}
             />
             {/* <hr className="mt-4" /> */}
             {frontmatter.title}
