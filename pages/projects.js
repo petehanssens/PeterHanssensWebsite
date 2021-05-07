@@ -6,38 +6,25 @@ const projects = [
     {
       name: 'Cloud Shuttle',
       role: 'A community focussed cloud consultancy',
-      imageUrl:
-        './img/projects/cloud_shuttle_logo_awesome.png',
+      imageUrl: './img/projects/cloud_shuttle_logo_awesome.png',
       linkedinUrl: 'https://www.linkedin.com/company/cloud-shuttle/',
+      websiteUrl: 'https://cloudshuttle.com.au'
     },
     {
       name: 'Data Eng Meetup / DataEngBytes',
       role: 'Brisbane, Melbourne and Sydney',
-      imageUrl:
-        './img/projects/dataEngAustralia.png',
+      imageUrl: './img/projects/dataEngAustralia.png',
       twitterUrl: 'https://twitter.com/dataengconfau',
       linkedinUrl: 'https://www.linkedin.com/company/dataengconfau/',
+      websiteUrl: 'https://dataengconf.com.au'
     },
     {
       name: 'AWS ANZ Community',
       role: 'An AWS Hero led community events',
-      imageUrl:
-        './img/projects/awsANZCommunity.jpg',
+      imageUrl: './img/projects/awsANZCommunity.jpg',
       linkedinUrl: 'https://www.linkedin.com/company/awsanzusergroup/',
+      websiteUrl: 'https://cloudshuttle.com.au'
     },
-    {
-      name: 'the flooring company',
-      role: 'Still in the works',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    },
-    {
-      name: 'sitebud',
-      role: 'Making construction tracking easy',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    },
-    // More people...
   ]
 
 export default function Projects() {
