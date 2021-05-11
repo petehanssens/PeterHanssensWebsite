@@ -6,6 +6,10 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
 export default function Example() {
   return (
     <Popover className="relative bg-white">
@@ -81,16 +85,16 @@ export default function Example() {
                 </div>
                 <div className="py-6 px-5">
                   <div className="grid grid-cols-2 gap-4">
-                    <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    <a href="/about" className="text-base font-medium text-gray-900 hover:text-gray-700">
                       About me
                     </a>
-                    <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    <a href="/blog" className="text-base font-medium text-gray-900 hover:text-gray-700">
                       Blog
                     </a>
-                    <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    <a href="/projects" className="text-base font-medium text-gray-900 hover:text-gray-700">
                       Projects
                     </a>
-                    <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    <a href="/cv-peter-hanssens.pdf" className="text-base font-medium text-gray-900 hover:text-gray-700">
                       Curriculum Vitae
                     </a>
                   </div>

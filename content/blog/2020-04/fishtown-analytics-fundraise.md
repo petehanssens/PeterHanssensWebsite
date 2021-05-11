@@ -11,6 +11,4 @@ toc: true
 
 # Fishtown Analytics announce a $12.9m fundraise
 
-
-
-https://blog.getdbt.com/fishtown-analytics-announces-12-9m-fundraise/
+[Fishtown Analytics announces 12.9m fundraise](https://blog.getdbt.com/fishtown-analytics-announces-12-9m-fundraise/ "Fishtown Analytics announces 12.9m fundraise")
