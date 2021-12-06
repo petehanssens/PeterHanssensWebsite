@@ -1,5 +1,6 @@
 import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import dynamic from 'next/dynamic'
+const ReactMarkdown= dynamic(() => import('react-markdown'),{ ssr: false })
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import gfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw'
