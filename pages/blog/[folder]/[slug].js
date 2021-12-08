@@ -67,29 +67,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
               rehypePlugins={[rehypeRaw]}
               components={components}
             />
-            {/* <hr className="mt-4" /> */}
-            {frontmatter.title}
-            {/* <footer>
-            </footer> */}
           </article>
-          {/* <nav className="flex flex-wrap justify-between mb-10">
-            {previousPost ? (
-              <Link href={"/blog/[slug]"} as={`/blog/${previousPost.slug}`}>
-                <a className="text-lg font-bold">
-                  ← {previousPost.frontmatter.title}
-                </a>
-              </Link>
-            ) : (
-              <div />
-            )}
-            {nextPost ? (
-              <Link href={"/blog/[slug]"} as={`/blog/${nextPost.slug}`}>
-                <a className="text-lg font-bold">{nextPost.frontmatter.title} →</a>
-              </Link>
-            ) : (
-              <div />
-            )}
-          </nav> */}
           </div>
         </div>
       </main>
