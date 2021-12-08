@@ -7,9 +7,7 @@
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
-  NODE_VERSION = "14"
-  YARN_VERSION = "1.22.15"
-  YARN_FLAGS = "--no-ignore-optional"
+  NODE_VERSION = "14.18.1"
  
 [context.production]
   environment = { NODE_VERSION = "14", NODE_ENV = "production" }
