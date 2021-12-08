@@ -88,7 +88,7 @@ const project = new web.NextJsProject({
   // devContainer: false,                                                      /* Add a VSCode development environment (used for GitHub Codespaces). */
   // gitpod: false,                                                            /* Add a Gitpod development environment. */
   // logging: {},                                                              /* Configure logging options such as verbosity. */
-  // outdir: '.',                                                              /* The root directory of the project. */
+  outdir: 'out_publish',                                                              /* The root directory of the project. */
   // parent: undefined,                                                        /* The parent project, if this project is part of a bigger project. */
   // projectType: ProjectType.UNKNOWN,                                         /* Which type of project this is (library/app). */
   // readme: undefined,                                                        /* The README setup. */

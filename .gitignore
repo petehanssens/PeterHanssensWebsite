@@ -38,3 +38,8 @@ yarn-error.log*
 !/postcss.config.json
 !/tailwind.config.json
 !version.json
+
+# Local Netlify folder
+.netlify
+out_functions
+out_publish
