@@ -44,7 +44,7 @@ export default function About() {
                 </div>
                 <div className="text-lg">
                   {Peter.ProfessionalInterests.map((data) => (
-                    <p className="text-gray-500">{data}</p>
+                    <p key={data} className="text-gray-500">{data}</p>
                   ))
                   }
                 </div>

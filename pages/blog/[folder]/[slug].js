@@ -1,28 +1,12 @@
-import Link from "next/link";
 import dynamic from 'next/dynamic'
 const ReactMarkdown= dynamic(() => import('react-markdown'),{ ssr: false })
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import gfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw'
-/* Use `…/dist/cjs/…` if you’re not in ESM! */
-// import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
 import { getPostBySlug, getPostsSlugs } from "../../../utils/posts";
 
-const CodeBlock = ({ language, value }) => {
-  return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
-};
-
-const renderers = {
-  code:({language,value})=>{
-  var newCode = value
-  var oldCode = value || oldCode
-
-  return <SyntaxHighlighter style={dark} language={"dart"} children={newCode || "" } />
-}
-}
 const components = {
   code({node, inline, className, children, ...props}) {
     const match = /language-(\w+)/.exec(className || '')
@@ -33,15 +17,6 @@ const components = {
     )
   }
 }
-
-// const MarkdownImage = ({ alt, src }) => (
-//   <Image
-//     alt={alt}
-//     src={require(`../../content/assets/${src}`)}
-//     previewSrc={require(`../../content/assets/${src}?lqip`)}
-//     className="w-full"
-//   />
-// );
 
 export default function Post({ post, frontmatter, nextPost, previousPost }) {
   return (
@@ -67,29 +42,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
               rehypePlugins={[rehypeRaw]}
               components={components}
             />
-            {/* <hr className="mt-4" /> */}
-            {frontmatter.title}
-            {/* <footer>
-            </footer> */}
           </article>
-          {/* <nav className="flex flex-wrap justify-between mb-10">
-            {previousPost ? (
-              <Link href={"/blog/[slug]"} as={`/blog/${previousPost.slug}`}>
-                <a className="text-lg font-bold">
-                  ← {previousPost.frontmatter.title}
-                </a>
-              </Link>
-            ) : (
-              <div />
-            )}
-            {nextPost ? (
-              <Link href={"/blog/[slug]"} as={`/blog/${nextPost.slug}`}>
-                <a className="text-lg font-bold">{nextPost.frontmatter.title} →</a>
-              </Link>
-            ) : (
-              <div />
-            )}
-          </nav> */}
           </div>
         </div>
       </main>
