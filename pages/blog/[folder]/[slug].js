@@ -6,6 +6,7 @@ import rehypeRaw from 'rehype-raw'
 import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
 import { getPostBySlug, getPostsSlugs } from "../../../utils/posts";
+import Disqus from "../../../components/disqus";
 
 const components = {
   code({node, inline, className, children, ...props}) {
@@ -42,6 +43,7 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
               rehypePlugins={[rehypeRaw]}
               components={components}
             />
+            <Disqus props={frontmatter} />
           </article>
           </div>
         </div>

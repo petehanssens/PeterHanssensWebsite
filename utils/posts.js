@@ -41,13 +41,14 @@ export function getSortedPosts() {
       // Parse markdown, get frontmatter data, excerpt and content.
       const { data, excerpt, content } = matter(markdownWithMetadata);
 
+      // Remove .md file extension from post name
+      const slug = `${folder}/${filename.replace(".md", "")}`;
+
       const frontmatter = {
         ...data,
         date: getFormattedDate(data.date),
+        pageSlug: slug,
       };
-
-      // Remove .md file extension from post name
-      const slug = `${folder}/${filename.replace(".md", "")}`;
 
       return {
         slug,
