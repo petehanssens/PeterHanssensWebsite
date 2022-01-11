@@ -1,8 +1,9 @@
 ---
 date: 2020-07-15T01:00:00.000Z
-date1: "2020-07-15T01:02:17+10:00"
 draft: false
 title: "Setting up a streaming platform"
+description: "How does one run OBS and Streamlab reliably in the cloud"
+image: "/img/blog/streaming-platform/StreamingArchitecture.png"
 tags: ["OBS","Twitch","YouTube",]
 series: ["Community"]
 categories: ["Blog"]

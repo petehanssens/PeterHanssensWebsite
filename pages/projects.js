@@ -11,8 +11,8 @@ const projects = [
       websiteUrl: 'https://cloudshuttle.com.au'
     },
     {
-      name: 'Data Eng Meetup / DataEngBytes',
-      role: 'Brisbane, Melbourne and Sydney',
+      name: 'DataEngBytes',
+      role: 'A community run Data Engineering conference',
       imageUrl: './img/projects/dataEngAustralia.png',
       twitterUrl: 'https://twitter.com/dataengconfau',
       linkedinUrl: 'https://www.linkedin.com/company/dataengconfau/',
@@ -25,6 +25,48 @@ const projects = [
       linkedinUrl: 'https://www.linkedin.com/company/awsanzusergroup/',
       websiteUrl: 'https://cloudshuttle.com.au'
     },
+    {
+      name: 'dbt meetup',
+      role: 'They Sydney chapter of the dbt meetup',
+      imageUrl: './img/projects/sydney-dbt.png',
+      websiteUrl: 'https://cloudshuttle.com.au'
+    },
+    {
+      name: 'Sydney Serverless',
+      role: 'A monthly meetup where we chat all things Serverless!',
+      imageUrl: './img/projects/sydney-serverless.png',
+      twitterUrl: 'https://twitter.com/dataengconfau',
+      linkedinUrl: 'https://www.linkedin.com/company/dataengconfau/',
+      websiteUrl: 'https://dataengconf.com.au'
+    },
+    {
+      name: 'Sydney DataEng Meetup',
+      role: 'The Sydney chapter of the data engineering meetup',
+      imageUrl: './img/projects/sydney.png',
+      linkedinUrl: 'https://www.linkedin.com/company/dataengau/',
+      websiteUrl: 'https://cloudshuttle.com.au'
+    },
+    {
+      name: 'Melbourne DataEng Meetup',
+      role: 'The Melbourne chapter of the data engineering meetup',
+      imageUrl: './img/projects/melbourne.png',
+      linkedinUrl: 'https://www.linkedin.com/company/dataengau/',
+      websiteUrl: 'https://cloudshuttle.com.au'
+    },
+    {
+      name: 'Brisbane DataEng Meetup',
+      role: 'The Brisbane chapter of the data engineering meetup',
+      imageUrl: './img/projects/brisbane.png',
+      linkedinUrl: 'https://www.linkedin.com/company/dataengau/',
+      websiteUrl: 'https://cloudshuttle.com.au'
+    },
+    {
+      name: 'Perth DataEng Meetup',
+      role: 'The Perth chapter of the data engineering meetup',
+      imageUrl: './img/projects/perth.png',
+      linkedinUrl: 'https://www.linkedin.com/company/dataengau/',
+      websiteUrl: 'https://cloudshuttle.com.au'
+    },
   ]
 
 export default function Projects() {
@@ -34,8 +76,6 @@ export default function Projects() {
       keywords={[`Peter Hanssens`]}
       title="Peter Hanssens!"
     />
-    <main className="min-h-screen">
-      <div className="relative">
         <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
           <div className="space-y-12">
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
@@ -84,8 +124,7 @@ export default function Projects() {
             </ul>
           </div>
         </div>
-      </div>
-    </main>
+
   </Layout>
   );
 };

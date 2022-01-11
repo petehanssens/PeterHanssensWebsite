@@ -1,8 +1,9 @@
 ---
 date: 2016-11-27T11:00:00.000Z
-date1: "2016-11-27T15:04:48+08:00"
 draft: false
 title: "A live twitter feed"
+description: "Scraping twitter to produce a live feed"
+image: "/img/square_headshot.jpg"
 tags: ["video", "twitter", "postgres"]
 series: ["twitter"]
 categories: ["Blog"]

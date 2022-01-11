@@ -1,8 +1,9 @@
 ---
 date: 2019-09-17T01:00:00.000Z
-date1: "2019-09-17T01:02:17+10:00"
 draft: false
 title: "Exploring the Great Barrier Reef"
+description: "Its always nice to be able to get out and have a family holiday!"
+image: "/img/blog/family/great-barrier-reef/PortDouglasBeach.jpg"
 tags: ["Holiday","Vacation","Great Barrier Reef",]
 series: ["Family"]
 categories: ["Blog"]

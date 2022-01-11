@@ -48,6 +48,8 @@ export function getSortedPosts() {
         ...data,
         date: getFormattedDate(data.date),
         pageSlug: slug,
+        authorImage: './img/square_headshot.jpg',
+        authorName: 'Peter Hanssens'
       };
 
       return {

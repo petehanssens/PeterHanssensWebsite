@@ -27,8 +27,10 @@ export default function About() {
   return (
     <Layout>
       <SEO
-        keywords={[`Peter Hanssens`]}
-        title="Peter Hanssens!"
+        keywords={[`Peter Hanssens`,'About']}
+        title="About - Peter Hanssens!"
+        description={Peter.ShortDesc}
+        image="/img/square_headshot.jpg"
       />
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">

@@ -1,8 +1,9 @@
 ---
 date: 2018-10-20T16:00:00.000Z
-date1: "2018-10-20T16:46:17+08:00"
 draft: false
 title: "Data Architecture"
+description: "The simplest way to visualise a data architecture - using layers"
+image: "/img/blog/data-architecture/data_architecture.png"
 tags: ["architecture"]
 series: ["Architecture"]
 categories: ["Blog"]

@@ -25,12 +25,13 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
       <SEO
         keywords={frontmatter.tags}
         title={frontmatter.title}
+        description={frontmatter.description}
+        image={frontmatter.image}
       />
 
-      <main className="min-h-screen">
-        <div className="relative">
-          <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-          <article>
+
+<div className="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div className="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
             <header className="mb-8">
               <h1 className="mb-2 text-6xl font-black leading-none font-display">
                 {frontmatter.title}
@@ -44,10 +45,8 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
               components={components}
             />
             <Disqus props={frontmatter} />
-          </article>
           </div>
         </div>
-      </main>
     </Layout>
   );
 }

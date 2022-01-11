@@ -1,8 +1,9 @@
 ---
 date: 2021-12-06T01:00:00.000Z
-date1: "2021-12-06:02:17+10:00"
 draft: false
 title: "Using touch id with AWS SSO"
+description: "Setting up MFA using touch id for AWS SSO"
+image: "/img/blog/touch-id-with-aws-sso/configure-multi-factor-auth.png"
 tags: ["sso","mfa"]
 series: ["Cloud"]
 categories: ["Blog"]

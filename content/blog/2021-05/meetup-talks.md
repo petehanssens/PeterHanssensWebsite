@@ -1,8 +1,9 @@
 ---
 date: 2021-05-11T01:00:00.000Z
-date1: "2021-05-11T01:02:17+10:00"
 draft: false
 title: "What I look for in meetup talks!"
+description: "I've seen a lot of meetup talks over the years, and this is how I assess them"
+image: "/img/projects/sydney.png"
 tags: ["meetup","tech talks","presentations",]
 series: ["Community"]
 categories: ["Blog"]

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import Head from 'next/head'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, image }) {
 
   return (
     <Head
@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: "/images/cloud_shuttle_logo_awesome.png",
+          content: image || "/images/cloud_shuttle_logo_awesome.png",
         },
         {
           name: `twitter:card`,

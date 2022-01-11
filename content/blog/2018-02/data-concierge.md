@@ -1,8 +1,9 @@
 ---
 date: 2018-02-04T11:00:00.000Z
-date1: "2018-02-04T16:46:17+08:00"
 draft: false
 title: "Data Concierge"
+description: "An alexa skill that queries a database"
+image: "/img/square_headshot.jpg"
 tags: ["data","alexa"]
 series: ["Alexa"]
 categories: ["Blog"]
