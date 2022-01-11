@@ -22,7 +22,7 @@ Speaking to one of my brothers who is a timer floorer by trade and generally qui
 
 ![Makita Multi Function Power Head](/img/blog/garden-tools/makita-multi-function-power-head.jpeg)
 
-[https://sydneytools.com.au/product/makita-dux60phpt2b-36v-18v-x-2-50ah-liion-cordless-brushless-multi-function-power-head-combo-kit-with-attachments](https://sydneytools.com.au/product/makita-dux60phpt2b-36v-18v-x-2-50ah-liion-cordless-brushless-multi-function-power-head-combo-kit-with-attachments)
+[Sydney Tools Product Page](https://sydneytools.com.au/product/makita-dux60phpt2b-36v-18v-x-2-50ah-liion-cordless-brushless-multi-function-power-head-combo-kit-with-attachments)
 
 I’ve been super impressed by the balance of the tool given it’s got two 18V batteries on it’s head and how easy it was to get up and running so naturally, this will not be the last tool I buy from Makita!
 

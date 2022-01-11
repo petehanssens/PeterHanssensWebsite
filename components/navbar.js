@@ -22,7 +22,7 @@ export default function Example() {
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="./img/square_headshot.jpg"
-                  alt="Peter Hanssens photo"
+                  alt="Peter Hanssens"
                 />
               </a>
             </div>

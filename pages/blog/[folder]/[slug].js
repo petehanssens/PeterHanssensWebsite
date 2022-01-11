@@ -29,17 +29,20 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
         image={frontmatter.image}
       />
 
-
-<div className="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-      <div className="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
-            <header className="mb-8">
-              <h1 className="mb-2 text-6xl font-black leading-none font-display">
+      <div className="relative py-16 bg-white overflow-hidden">
+        <div className="relative px-4 sm:px-6 lg:px-8">
+          <div className="text-lg max-w-prose mx-auto">
+            <h1>
+              <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
+                {frontmatter.date}
+              </span>
+              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 {frontmatter.title}
-              </h1>
-              <p className="text-sm">{frontmatter.date}</p>
-            </header>
+              </span>
+            </h1>
+
             <ReactMarkdown
-              className="mb-4 prose-sm prose sm:prose lg:prose-lg"
+              className="mt-8 text-xl text-gray-500 leading-8"
               children={post.content}
               rehypePlugins={[rehypeRaw]}
               components={components}
@@ -47,13 +50,13 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
             <Disqus props={frontmatter} />
           </div>
         </div>
+      </div>
     </Layout>
   );
 }
 
 export async function getStaticPaths() {
   const paths = getPostsSlugs();
-  // console.log(`paths: ${JSON.stringify(paths)}`)
 
   return {
     paths,
@@ -74,3 +77,8 @@ export async function getStaticProps({ params: { folder, slug } }) {
 
   return { props: postData };
 }
+
+
+
+
+

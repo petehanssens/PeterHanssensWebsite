@@ -76,8 +76,8 @@ export default function Projects() {
       keywords={[`Peter Hanssens`]}
       title="Peter Hanssens!"
     />
-        <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-          <div className="space-y-12">
+    <div className="relative py-16 bg-white overflow-hidden">
+      <div className="relative px-4 sm:px-6 lg:px-8">
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
               {projects.map((project) => (
                 <li key={project.name}>
