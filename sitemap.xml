@@ -1,0 +1,22 @@
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://www.peterhanssens.com.au/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.peterhanssens.com.au/about/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.peterhanssens.com.au/blog/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.peterhanssens.com.au/projects/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.peterhanssens.com.au/cv-peter-hanssens.pdf</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+</urlset>
