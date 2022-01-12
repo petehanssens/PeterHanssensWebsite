@@ -73,8 +73,9 @@ export default function Projects() {
   return (
   <Layout>
     <SEO
-      keywords={[`Peter Hanssens`]}
-      title="Peter Hanssens!"
+      keywords={[`Peter Hanssens`,'Projects']}
+      title="Projects - Peter Hanssens!"
+      description="All of my current projects that I'm working on"
     />
     <div className="relative py-16 bg-white overflow-hidden">
       <div className="relative px-4 sm:px-6 lg:px-8">

@@ -7,7 +7,7 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[`Peter Hanssens`]}
-        title="Peter Hanssens!"
+        title="Welcome to Peter Hanssens website!"
         description="Thoughts from a Sydney based Cloud Architect and Data Engineer by profession and a proud husband and father."
       />
       <section>

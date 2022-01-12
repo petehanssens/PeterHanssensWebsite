@@ -58,7 +58,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         .concat(meta)}
       title={title}
     >
-    <link rel="icon" href="/images/cloudicon.ico" />
+      <link rel="icon" href="/img/favicon.ico" />
+      <title>{title}</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
   );
 }

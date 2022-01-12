@@ -1,15 +1,17 @@
-/* This example requires Tailwind CSS v2.0+ */
+
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+
+
 export default function Example() {
     return (
-      <>
-        {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full">
-          <body class="h-full">
-          ```
-        */}
+      <Layout>
+        <SEO
+          keywords={[`Peter Hanssens`,'404']}
+          title="That's a 404!"
+          description="You may have stumbled on the wrong section!"
+          image="/img/square_headshot.jpg"
+        />
         <main
           className="min-h-full bg-cover bg-top sm:bg-top"
           style={{
@@ -35,7 +37,7 @@ export default function Example() {
             </div>
           </div>
         </main>
-      </>
+      </Layout>
     )
   }
   
