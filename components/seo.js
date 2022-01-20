@@ -62,7 +62,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <script type="text/javascript" src="/content/rum-tracking.js"></script>
+      <script type="text/javascript" src="/rum-tracking.js"></script>
     </Head>
   );
 }
