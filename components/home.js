@@ -1,4 +1,5 @@
 import INSPIRATIONAL from "../components/inspirational";
+import Video from "../components/video";
 
 const navigation = {
   social: [
@@ -89,6 +90,8 @@ export default function Example() {
             </div>
           </div>
         <INSPIRATIONAL />
+
+        <Video />
 
         {/* More main page content here... */}
       </main>
