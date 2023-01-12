@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "npm-check-updates",
-      "version": "^11",
+      "version": "^16",
       "type": "build"
     },
     {
@@ -15,7 +15,39 @@
       "type": "build"
     },
     {
+      "name": "@headlessui/react",
+      "type": "runtime"
+    },
+    {
+      "name": "@heroicons/react",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/aspect-ratio",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/forms",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/line-clamp",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/typography",
+      "type": "runtime"
+    },
+    {
       "name": "autoprefixer",
+      "type": "runtime"
+    },
+    {
+      "name": "disqus-react",
+      "type": "runtime"
+    },
+    {
+      "name": "gray-matter",
       "type": "runtime"
     },
     {
@@ -32,6 +64,22 @@
     },
     {
       "name": "react-dom",
+      "type": "runtime"
+    },
+    {
+      "name": "react-markdown",
+      "type": "runtime"
+    },
+    {
+      "name": "react-syntax-highlighter",
+      "type": "runtime"
+    },
+    {
+      "name": "rehype-raw",
+      "type": "runtime"
+    },
+    {
+      "name": "remark-gfm",
       "type": "runtime"
     },
     {

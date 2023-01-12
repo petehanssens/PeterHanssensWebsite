@@ -1,5 +1,5 @@
 {
-  "name": "PeterHanssensWebsite",
+  "name": "peter-hanssens-website",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -7,36 +7,47 @@
     "compile": "npx projen compile",
     "default": "npx projen default",
     "dev": "npx projen dev",
+    "eject": "npx projen eject",
     "export": "npx projen export",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
+    "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
-    "publish:github": "npx projen publish:github",
     "release": "npx projen release",
     "server": "npx projen server",
     "telemetry": "npx projen telemetry",
     "test": "npx projen test",
     "unbump": "npx projen unbump",
     "upgrade": "npx projen upgrade",
-    "upgrade-projen": "npx projen upgrade-projen",
     "projen": "npx projen"
   },
   "devDependencies": {
-    "npm-check-updates": "^11",
-    "projen": "^0.37.1",
+    "npm-check-updates": "^16",
+    "projen": "^0.66.11",
     "standard-version": "^9"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "next": "^12.0.7",
-    "postcss": "^8.2.9",
+    "@headlessui/react": "^1.7.7",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.13",
+    "disqus-react": "^1.1.5",
+    "gray-matter": "^4.0.3",
+    "next": "^12.3.4",
+    "postcss": "^8.4.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-markdown": "^6.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "^5.1.0",
+    "remark-gfm": "^1.0.0",
     "tailwindcss": "^2.2.19"
   },
-  "bundledDependencies": [],
   "engines": {
-    "node": ">= 12.13.0"
+    "node": ">= 12.22.0"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
